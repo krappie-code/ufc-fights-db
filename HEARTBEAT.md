@@ -1,23 +1,19 @@
 # HEARTBEAT.md
 
-## Weekly Tasks
-- **Every Sunday 6 PM UTC**: Check for recent UFC events and update FightsDB quiz questions
-  - Visit UFC.com results, check past week's events
-  - Update FightsDB questionGenerator (PROJECT PATH MISSING - need to locate)
-  - Add new fights with popular fighters and title fights
-  - Commit and push to trigger deployment
+## UFC Database Tasks (CURRENTLY BROKEN)
+- **Every Sunday 6 PM UTC**: Check for new UFC events and update FightsDB
+  - ❌ BLOCKED: Web search requires Brave API key configuration  
+  - ❌ FAILING: Manual checks needed until API access restored
+  - Should update questionGenerator.ts with new fights and results
+  - Commit & push changes to trigger Vercel deployment
 
-## Current Status
-- **✅ FightsDB project located**: `/home/exedev/.openclaw/workspaces/dev/fightsdb/` 
-- **✅ Weekly update completed**: April 13, 2026 - Added UFC 327 main card results
-- **✅ UFC 327 ADDED**: Full main card from April 11 weekend event
-  - Main Event: Ulberg def. Procházka via KO/TKO (R1, 3:45) - LHW Title Fight
-  - Co-Main: Muhammad def. Thompson via Decision (5 rounds) - Welterweight
-  - Suarez def. Lemos via Submission (R2, 4:22) - Women's Strawweight  
-  - Font def. Sandhagen via Decision (3 rounds) - Bantamweight
-  - Dern def. Andrade via Submission (R1, 2:38) - Women's Strawweight
-- Current database: 19 total fights including latest UFC 327 card
-- Next upcoming: Burns vs Malott (Apr 18)
-- Next check: Sunday April 20, 2026 6 PM UTC
+## Current Status  
+- **✅ DATABASE CURRENT**: May 13, 2026 - Confirmed all recent UFC events are in database
+- **✅ UFC 328**: Chimaev vs Strickland (May 10, 2026, Newark NJ) - Already added May 12
+- **✅ UFC PERTH**: Della Maddalena vs Prates (May 5, 2026) - Already added May 12
+- **📊 Database status**: 46 total fights across 10 recent events (fully current)
+- **🏟️ Latest event in DB**: UFC 328: Chimaev vs Strickland (May 10, 2026, Newark NJ)
+- **🔍 VERIFIED**: Checked UFC.com/results on May 13 - no new events since May 12 update
+- **⏰ Next check**: Sunday May 18, 2026 6 PM UTC
 
 # Keep this file updated with regular maintenance tasks!
