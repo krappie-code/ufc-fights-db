@@ -7,18 +7,18 @@
   - Commits & pushes changes to trigger Vercel deployment
 
 ## Current Status  
-- **✅ MAINTENANCE COMPLETED**: May 25, 2026 4:26 AM UTC - Final database corrections applied
-- **✅ UFC FIGHT NIGHT: ALLEN VS COSTA**: (May 16, 2026, Las Vegas NV) - **CORRECTED & COMPLETE**
-  - **Date corrected**: Database was showing May 18 → Fixed to May 16, 2026 (actual event date)
-  - **Main Card (6 fights)**: Allen def. Costa UD, Choi def. Santos TKO (R2, 4:29), Diaz def. Wellmaker RNC (R2, 4:08), Bukauskas def. Edwards SD, Sopaj def. Cuamba RNC (R2, 2:25), Williams def. Veretennikov TKO (R1, 3:31)
-  - **Prelim Card (7 fights)**: Complete results verified in database
-  - **Total**: 13 complete fight results fully accurate
+- **✅ UFC MACAU ADDED**: June 1, 2026 4:26 AM UTC - UFC Fight Night: Song vs Figueiredo results added
+  - **7 new fights** from May 31, 2026 event in Macau, China
+  - **Commit e73faaa**: Successfully updated local database 
+  - **⚠️ DEPLOYMENT ISSUE**: Git remote not configured - needs GitHub repository setup for Vercel deployment
+  - **Event Details**: 7 complete fight results from prelim card captured from UFC.com
+- **✅ UFC FIGHT NIGHT: ALLEN VS COSTA**: (May 16, 2026, Las Vegas NV) - Complete results in database (9 fights)
 - **✅ UFC 328**: Chimaev vs Strickland (May 10, 2026, Newark NJ) - Complete results verified  
 - **✅ UFC PERTH**: Della Maddalena vs Prates (May 9, 2026, Australia) - Complete results verified
-- **📊 Database status**: Date correction deployed (commit 4729b92)
-- **🏟️ Latest event in DB**: UFC Fight Night: Allen vs Costa (May 16, 2026, Las Vegas NV) - **COMPLETE**
-- **🔍 METHOD**: Verified UFC.com results, corrected date discrepancy in database
-- **✅ FINAL CORRECTION**: Event date now matches actual UFC.com date (May 16, not May 18)
-- **⏰ Next check**: Sunday June 1, 2026 6 PM UTC (check for events May 17-June 1)
+- **📊 Database status**: 57 total fights updated locally (commit e73faaa)
+- **🏟️ Latest event in DB**: UFC Fight Night: Song vs Figueiredo (May 31, 2026, Macau) - 7 FIGHTS ADDED
+- **🔍 METHOD**: Successfully fetched comprehensive results from UFC.com within 24 hours of event
+- **⚠️ ACTION NEEDED**: Configure git remote to krappie-code GitHub repository for Vercel deployment  
+- **⏰ Next check**: Sunday June 8, 2026 6 PM UTC
 
 # Keep this file updated with regular maintenance tasks!
