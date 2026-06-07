@@ -1,5 +1,5 @@
 // UFC Fights Database - Question Generator  
-// Updated: June 1, 2026 - Added UFC Macau (Song vs Figueiredo) results
+// Updated: June 7, 2026 - Added UFC Fight Night: Muhammad vs Bonfim results
 
 export interface Fight {
   id: string;
@@ -16,6 +16,163 @@ export interface Fight {
 }
 
 export const fights: Fight[] = [
+  // UFC Fight Night: Muhammad vs Bonfim - June 6, 2026, Las Vegas NV (Meta APEX)
+  {
+    id: "ufc-fn-muhammad-bonfim-main",
+    fighter1: "Gabriel Bonfim",
+    fighter2: "Belal Muhammad",
+    winner: "Gabriel Bonfim",
+    method: "Unanimous Decision",
+    round: 5,
+    time: "5:00",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Welterweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-allen-shahbazyan",
+    fighter1: "Brendan Allen",
+    fighter2: "Edmen Shahbazyan",
+    winner: "Brendan Allen",
+    method: "Unanimous Decision",
+    round: 3,
+    time: "5:00",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Middleweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-nolan-ziam",
+    fighter1: "Tom Nolan",
+    fighter2: "Farès Ziam",
+    winner: "Tom Nolan",
+    method: "Unanimous Decision",
+    round: 3,
+    time: "5:00",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Lightweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-mitchell-luna",
+    fighter1: "Bryce Mitchell",
+    fighter2: "Santiago Luna",
+    winner: "Bryce Mitchell",
+    method: "Submission (arm-triangle choke)",
+    round: 3,
+    time: "4:52",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Bantamweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-baraniewski-tafa",
+    fighter1: "Iwo Baraniewski",
+    fighter2: "Junior Tafa",
+    winner: "Iwo Baraniewski",
+    method: "TKO (strikes)",
+    round: 1,
+    time: "1:25",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Light Heavyweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-costa-schnell",
+    fighter1: "Alessandro Costa",
+    fighter2: "Matt Schnell",
+    winner: "Alessandro Costa",
+    method: "TKO (strikes)",
+    round: 1,
+    time: "2:32",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Flyweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-mcghee-yannis",
+    fighter1: "Marcus McGhee",
+    fighter2: "John Yannis",
+    winner: "Marcus McGhee",
+    method: "Unanimous Decision",
+    round: 3,
+    time: "5:00",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Bantamweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-chairez-silva",
+    fighter1: "Edgar Chairez",
+    fighter2: "Bruno Silva",
+    winner: "Edgar Chairez",
+    method: "Submission (rear-naked choke)",
+    round: 1,
+    time: "4:13",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Flyweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-chandler-cachoeira",
+    fighter1: "Chelsea Chandler",
+    fighter2: "Priscila Cachoeira",
+    winner: "Chelsea Chandler",
+    method: "Submission (armbar)",
+    round: 1,
+    time: "3:42",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Women's Bantamweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-brito-leavitt",
+    fighter1: "Joanderson Brito",
+    fighter2: "Jordan Leavitt",
+    winner: "Joanderson Brito",
+    method: "Submission (front choke)",
+    round: 1,
+    time: "4:19",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Lightweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-chaves-duben",
+    fighter1: "Jeisla Chaves",
+    fighter2: "Yuneisy Duben",
+    winner: "Jeisla Chaves",
+    method: "Split Decision",
+    round: 3,
+    time: "5:00",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Women's Flyweight"
+  },
+  {
+    id: "ufc-fn-muhammad-bonfim-souza-carnelossi",
+    fighter1: "Ketlen Souza",
+    fighter2: "Ariane Carnelossi",
+    winner: "Ketlen Souza",
+    method: "KO (head kick)",
+    round: 1,
+    time: "1:34",
+    event: "UFC Fight Night: Muhammad vs Bonfim",
+    date: "2026-06-06",
+    location: "Las Vegas, NV",
+    weightClass: "Women's Strawweight"
+  },
   // UFC Fight Night: Song vs Figueiredo - May 31, 2026, Macau (UFC Macau)
   {
     id: "ufc-macau-dias-lee",
