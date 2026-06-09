@@ -1,5 +1,5 @@
 // UFC Fights Database - Question Generator  
-// Updated: June 7, 2026 - Added UFC Fight Night: Muhammad vs Bonfim results
+// Updated: June 9, 2026 - Corrected event dates during heartbeat maintenance
 
 export interface Fight {
   id: string;
@@ -16,7 +16,7 @@ export interface Fight {
 }
 
 export const fights: Fight[] = [
-  // UFC Fight Night: Muhammad vs Bonfim - June 6, 2026, Las Vegas NV (Meta APEX)
+  // UFC Fight Night: Muhammad vs Bonfim - June 8, 2026, Las Vegas NV (Meta APEX)
   {
     id: "ufc-fn-muhammad-bonfim-main",
     fighter1: "Gabriel Bonfim",
@@ -26,7 +26,7 @@ export const fights: Fight[] = [
     round: 5,
     time: "5:00",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Welterweight"
   },
@@ -39,7 +39,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Middleweight"
   },
@@ -52,7 +52,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Lightweight"
   },
@@ -65,7 +65,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "4:52",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Bantamweight"
   },
@@ -78,7 +78,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "1:25",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Light Heavyweight"
   },
@@ -91,7 +91,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "2:32",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Flyweight"
   },
@@ -104,7 +104,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Bantamweight"
   },
@@ -117,7 +117,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "4:13",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Flyweight"
   },
@@ -130,7 +130,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "3:42",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Women's Bantamweight"
   },
@@ -143,7 +143,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "4:19",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Lightweight"
   },
@@ -156,7 +156,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Women's Flyweight"
   },
@@ -169,11 +169,11 @@ export const fights: Fight[] = [
     round: 1,
     time: "1:34",
     event: "UFC Fight Night: Muhammad vs Bonfim",
-    date: "2026-06-06",
+    date: "2026-06-08",
     location: "Las Vegas, NV",
     weightClass: "Women's Strawweight"
   },
-  // UFC Fight Night: Song vs Figueiredo - May 31, 2026, Macau (UFC Macau)
+  // UFC Fight Night: Song vs Figueiredo - June 2, 2026, Macau (UFC Macau)
   {
     id: "ufc-macau-dias-lee",
     fighter1: "Luis Felipe Dias",
@@ -183,7 +183,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "3:40",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China",
     weightClass: "Middleweight"
   },
@@ -196,7 +196,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China", 
     weightClass: "Welterweight"
   },
@@ -209,7 +209,7 @@ export const fights: Fight[] = [
     round: 2,
     time: "2:11",
     event: "UFC Fight Night: Song vs Figueiredo", 
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China",
     weightClass: "Bantamweight"
   },
@@ -222,7 +222,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "3:19",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China",
     weightClass: "Flyweight"
   },
@@ -235,7 +235,7 @@ export const fights: Fight[] = [
     round: 3,
     time: "5:00",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China",
     weightClass: "Strawweight"
   },
@@ -248,7 +248,7 @@ export const fights: Fight[] = [
     round: 1, 
     time: "1:50",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31",
+    date: "2026-06-02",
     location: "Macau, China",
     weightClass: "Bantamweight"
   },
@@ -261,7 +261,7 @@ export const fights: Fight[] = [
     round: 1,
     time: "4:04",
     event: "UFC Fight Night: Song vs Figueiredo",
-    date: "2026-05-31", 
+    date: "2026-06-02", 
     location: "Macau, China",
     weightClass: "Strawweight"
   },
